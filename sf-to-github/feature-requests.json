@@ -1,0 +1,913 @@
+{"tickets": [{
+  "status": "closed",
+  "reported_by_id": "505db898bfc09e520a72291b",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "mmunson79",
+  "assigned_to": "rushfan",
+  "labels": [
+    "Interface Improvements (example)"
+  ],
+  "discussion_disabled": false,
+  "assigned_to_id": "4ce2c6bc0594ca49fb000073",
+  "private": false,
+  "summary": "Telnet addresses in bbs list",
+  "description": "I think bringing the bbs lister to the present time where telnet url's could be featured just as well as regular phone numbers would be a positive addition.",
+  "discussion_thread": {
+    "_id": "e4058452",
+    "posts": [
+      {
+        "text": "Do you have a suggested layout for this? What info about the BBS would we ask for? Other features in the BBS List that you'd like to see?",
+        "attachments": [],
+        "author": "xenos",
+        "timestamp": "2014-06-19 05:58:09.864000",
+        "last_edited": null,
+        "slug": "b801",
+        "subject": "#1 Telnet addresses in bbs list"
+      },
+      {
+        "text": "- **status**: open --> closed\n- **assigned_to**: Rushfan\n- **Group**:  --> Next_Release_(example)\n",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2015-01-11 16:23:06.694000",
+        "last_edited": null,
+        "slug": "117a",
+        "subject": "#1 Telnet addresses in bbs list"
+      },
+      {
+        "text": "the new bbslist (now default) support this.",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2015-01-11 16:23:06.869000",
+        "last_edited": null,
+        "slug": "ba7b",
+        "subject": "#1 Telnet addresses in bbs list"
+      }
+    ],
+    "discussion_id": "505db898bfc09e520a72290d",
+    "subject": ""
+  },
+  "mod_date": "2015-01-11 16:24:13.332000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "505db898bfc09e520a72291a",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/wwiv/feature-requests/_discuss/thread/e4058452/",
+  "ticket_num": 1,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": "5.0"
+  },
+  "created_date": "2010-07-19 08:25:12"
+},{
+  "status": "closed",
+  "reported_by_id": "505db898bfc09e520a72291b",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "mmunson79",
+  "assigned_to": "rushfan",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4ce2c6bc0594ca49fb000073",
+  "private": false,
+  "summary": "internal qwk",
+  "description": "could the asylum internal qwk be added if it would be too complex to re-do the wwivmail door? its very handy for systems with many message bases.",
+  "discussion_thread": {
+    "_id": "5ce0532a",
+    "posts": [
+      {
+        "text": "- Description has changed:\n\nDiff:\n\n~~~~\n\n--- old\n+++ new\n@@ -1 +1 @@\n-could the asylum internal qwk be added if it would be too compelx to re-do the wwivmail door? its very handy for systems with many message bases.\n+could the asylum internal qwk be added if it would be too complex to re-do the wwivmail door? its very handy for systems with many message bases.\n\n~~~~\n\n- **status**: open --> closed\n- **assigned_to**: Rushfan\n- **Group**:  --> Next_Release_(example)\n",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-08-08 22:09:27.148000",
+        "last_edited": null,
+        "slug": "3403",
+        "subject": "#2 internal qwk"
+      },
+      {
+        "text": "internal qwk now enabled by default",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-08-08 22:09:27.380000",
+        "last_edited": null,
+        "slug": "f30b",
+        "subject": "#2 internal qwk"
+      }
+    ],
+    "discussion_id": "505db898bfc09e520a72290d",
+    "subject": ""
+  },
+  "mod_date": "2015-01-11 16:24:13.335000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "505db8a0bfc09e520a722940",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/wwiv/feature-requests/_discuss/thread/5ce0532a/",
+  "ticket_num": 2,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": "5.0"
+  },
+  "created_date": "2010-07-30 07:38:09"
+},{
+  "status": "closed",
+  "reported_by_id": "505db898bfc09e520a72291b",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "mmunson79",
+  "assigned_to": null,
+  "labels": [
+    "Interface Improvements (example)"
+  ],
+  "discussion_disabled": false,
+  "assigned_to_id": null,
+  "private": false,
+  "summary": "Detect Windows Vista and 7",
+  "description": "I would like WWIV5 to detect windows vista and windows 7 at start up. ",
+  "discussion_thread": {
+    "_id": "995adcdc",
+    "posts": [
+      {
+        "text": "It does vista in build 62, but this is a very minor issue. ",
+        "attachments": [],
+        "author": "mmunson79",
+        "timestamp": "2011-03-07 09:04:26",
+        "last_edited": null,
+        "slug": "d97f",
+        "subject": "#3 Detect Windows Vista and 7"
+      },
+      {
+        "text": "this has been fixed.",
+        "attachments": [],
+        "author": "atani",
+        "timestamp": "2014-01-09 23:29:18.896000",
+        "last_edited": null,
+        "slug": "942d",
+        "subject": "#3 Detect Windows Vista and 7"
+      },
+      {
+        "text": "- **status**: open --> closed\n- **Group**:  --> Next_Release_(example)\n",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-01-11 04:54:09.903000",
+        "last_edited": null,
+        "slug": "d809",
+        "subject": "#3 Detect Windows Vista and 7"
+      }
+    ],
+    "discussion_id": "505db898bfc09e520a72290d",
+    "subject": ""
+  },
+  "mod_date": "2015-01-11 16:24:13.336000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "505db8a0bfc09e520a722947",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/wwiv/feature-requests/_discuss/thread/995adcdc/",
+  "ticket_num": 3,
+  "custom_fields": {
+    "_priority": "3",
+    "_milestone": "5.0"
+  },
+  "created_date": "2010-09-08 23:52:09"
+},{
+  "status": "closed",
+  "reported_by_id": "4f403cbcb9363c5d9c0003d4",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "mroblivious1bmf",
+  "assigned_to": "rushfan",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4ce2c6bc0594ca49fb000073",
+  "private": false,
+  "summary": "Requesting Documentation",
+  "description": "Where's the docs?? they should be lncluded with every version",
+  "discussion_thread": {
+    "_id": "6e4717c7",
+    "posts": [
+      {
+        "text": "- **status**: open --> closed\n- **assigned_to**: Rushfan\n- **Group**:  --> Next_Release_(example)\n",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-06-25 05:11:04.474000",
+        "last_edited": null,
+        "slug": "7238",
+        "subject": "#4 Requesting Documentation"
+      },
+      {
+        "text": "they (changes on top of the 4.3 docs) are now in wiki:\r\nhttps://sourceforge.net/p/wwiv/wiki/\r\n\r\nAlso readme is now bundled with each build",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-06-25 05:11:04.664000",
+        "last_edited": null,
+        "slug": "23a4",
+        "subject": "#4 Requesting Documentation"
+      }
+    ],
+    "discussion_id": "505db898bfc09e520a72290d",
+    "subject": ""
+  },
+  "mod_date": "2015-01-11 16:24:13.344000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "505db8a0bfc09e520a722957",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/wwiv/feature-requests/_discuss/thread/6e4717c7/",
+  "ticket_num": 4,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": "5.0"
+  },
+  "created_date": "2012-02-19 21:02:43"
+},{
+  "status": "wont-fix",
+  "reported_by_id": "52ea90cad46bb439a411dcb8",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "xray1870",
+  "assigned_to": "rushfan",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4ce2c6bc0594ca49fb000073",
+  "private": false,
+  "summary": "Telnet server position",
+  "description": "A option into the telnet server that you can set the screen position for showing on your windows desktop.\r\n\r\nSo the place where it will set the telnet screen.",
+  "discussion_thread": {
+    "_id": "66a511e8",
+    "posts": [
+      {
+        "text": "I don't understand the request.  Do you mean where the bbs window will be launched?",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-05-26 21:24:13.855000",
+        "last_edited": null,
+        "slug": "961e",
+        "subject": "#5 Telnet server position"
+      },
+      {
+        "text": "- **status**: open --> wont-fix\n- **assigned_to**: Rushfan\n",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-08-16 00:26:19.792000",
+        "last_edited": null,
+        "slug": "cce4",
+        "subject": "#5 Telnet server position"
+      },
+      {
+        "text": "I don't understand the request and Rudi doesn't use the software anymore. Closing since I'm not sure what to do here.",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-08-16 00:26:19.939000",
+        "last_edited": null,
+        "slug": "9fe3",
+        "subject": "#5 Telnet server position"
+      }
+    ],
+    "discussion_id": "505db898bfc09e520a72290d",
+    "subject": ""
+  },
+  "mod_date": "2015-01-11 16:24:13.345000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "53455aeabcf63a21c03becbc",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/wwiv/feature-requests/_discuss/thread/66a511e8/",
+  "ticket_num": 5,
+  "custom_fields": {
+    "_priority": "1",
+    "_milestone": "5.0"
+  },
+  "created_date": "2014-04-09 14:36:26.319000"
+},{
+  "status": "open",
+  "reported_by_id": "52c4f186b9363c295ef0719d",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "bsbbsoutlaw",
+  "assigned_to": null,
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": null,
+  "private": false,
+  "summary": "Feature Request: \"User [username] has logged into node #\"",
+  "description": "Feature Request: LOW priority.\r\nJust something I think would be nice to have.\r\n\r\nAdd option to announce to user(s) that another user has logged in on other node.\r\n\r\nI think there used to be a MOD for this in the 4.2x days.",
+  "discussion_thread": {
+    "_id": "6ac87e87",
+    "posts": [
+      {
+        "text": "It might also be nice for this to be a flag in your user preferences so you can turn it off if you want.  Also, it would be a good option in wwiv.ini to allow a user the ability to enable/disable it.",
+        "attachments": [],
+        "author": "rockdw",
+        "timestamp": "2014-07-05 20:09:21.973000",
+        "last_edited": null,
+        "slug": "3291",
+        "subject": "#6 Feature Request: \"User [username] has logged into node #\""
+      }
+    ],
+    "discussion_id": "505db898bfc09e520a72290d",
+    "subject": ""
+  },
+  "mod_date": "2015-01-11 16:24:13.333000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "534aa93bf1fd8d5f28b00a70",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/wwiv/feature-requests/_discuss/thread/6ac87e87/",
+  "ticket_num": 6,
+  "custom_fields": {
+    "_priority": "1",
+    "_milestone": "5.0"
+  },
+  "created_date": "2014-04-13 15:11:55.762000"
+},{
+  "status": "open",
+  "reported_by_id": "505db8d2bfc09e520a722b92",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "rockdw",
+  "assigned_to": null,
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": null,
+  "private": false,
+  "summary": "Support for ssh connectivity",
+  "description": "I would really like to see being able to use something other than telnet to more securely connect",
+  "discussion_thread": {
+    "_id": "eca3e06f",
+    "posts": [
+      {
+        "text": "Would telnet-ssl do?\r\nI have a working telnet-ssl setup on aliens now.\r\nI'm wondering how to implement a secure ssh setup with the BBS.",
+        "attachments": [],
+        "author": "xenos",
+        "timestamp": "2014-06-19 05:54:35.020000",
+        "last_edited": null,
+        "slug": "810d",
+        "subject": "#7 Support for ssh connectivity"
+      },
+      {
+        "text": "Can you setup a tunnel now with ssh and tunnel to your local port (i.e. not bind 23 externally)?",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-08-11 23:45:34.788000",
+        "last_edited": null,
+        "slug": "e3de",
+        "subject": "#7 Support for ssh connectivity"
+      },
+      {
+        "text": "Sure, but there are a number of issues with doing it that way.  Not the least of which is relying on the end user to manage creating an ssh tunnel.  The ideal situation would be that the BBS could handle ssh on its own and not put the burden on the user.",
+        "attachments": [],
+        "author": "rockdw",
+        "timestamp": "2014-08-14 15:29:39.565000",
+        "last_edited": null,
+        "slug": "e3de/a38c",
+        "subject": "#7 Support for ssh connectivity"
+      }
+    ],
+    "discussion_id": "505db898bfc09e520a72290d",
+    "subject": ""
+  },
+  "mod_date": "2015-01-11 16:24:13.334000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "536b108b0910d40303c33718",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/wwiv/feature-requests/_discuss/thread/eca3e06f/",
+  "ticket_num": 7,
+  "custom_fields": {
+    "_priority": "1",
+    "_milestone": "5.0"
+  },
+  "created_date": "2014-05-08 05:05:15.787000"
+},{
+  "status": "closed",
+  "reported_by_id": "52c4f186b9363c295ef0719d",
+  "related_artifacts": [
+    "/p/wwiv/feature-requests/8/"
+  ],
+  "attachments": [],
+  "reported_by": "bsbbsoutlaw",
+  "assigned_to": "rushfan",
+  "labels": [
+    "Feature"
+  ],
+  "discussion_disabled": false,
+  "assigned_to_id": "4ce2c6bc0594ca49fb000073",
+  "private": false,
+  "summary": "SysOp Message to specific users as they log-in",
+  "description": "It would be nice to have the ability to have a bulletin or message that selected users are forced to read at login with option to clear after read once or display every time, or only a select number of times.\r\nNot necessarily something that all users would see.\r\n\r\n",
+  "discussion_thread": {
+    "_id": "e88cdb91",
+    "posts": [
+      {
+        "text": "like a short message or like a forced bulletin?  There's already this in wwiv.ini\r\n\r\nFORCE_SCAN = [Y|N]\r\nFORCE_SCAN_SUBNUM = [:digit:]\r\n\r\nTo force users to read a sub (for this type of message).\r\n\r\nIs that sufficient?\r\n\r\n\r\nYou mean on a per-user basis? \r\n\r\nWould a SSM (short 1 line message) be enough?  I'm trying to understand the usecase.\r\n\r\nThanks \r\n\r\n",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-08-11 23:48:31.173000",
+        "last_edited": null,
+        "slug": "92ff",
+        "subject": "#8 SysOp Message to specific users as they log-in"
+      },
+      {
+        "text": "I like that feature but I was thinking of something more user specific or to a group of users. \r\nAn SSM would work or even a bulletin that a specific user or users with a specific user level would see on every login. \r\n\r\nMaybe a future MOD?",
+        "attachments": [],
+        "author": "bsbbsoutlaw",
+        "timestamp": "2014-08-12 01:18:42.026000",
+        "last_edited": null,
+        "slug": "8fb6",
+        "subject": "#8 SysOp Message to specific users as they log-in"
+      },
+      {
+        "text": "QuickBBS used to have this. a file named SL##### (where ###### was your security level) would be displayed during login.  \r\n\r\nWould this be sufficient?\r\n\r\nWhat if we added\r\nSL#\r\nDSL#\r\nAR#\r\nDAR#\r\n\r\nWould that be sufficient?",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-08-16 00:28:12.879000",
+        "last_edited": null,
+        "slug": "0152",
+        "subject": "#8 SysOp Message to specific users as they log-in"
+      },
+      {
+        "text": "Yes!!\nThat would be perfect!\n\n\nSent from my Verizon Wireless 4G LTE Smartphone\n\n\n-------- Original message --------\nFrom: Rushfan\nDate:08/15/2014 5:28 PM (GMT-08:00)\nTo: \"[wwiv:feature-requests]\" <8@feature-requests.wwiv.p.re.sf.net>\nSubject: [wwiv:feature-requests] #8 SysOp Message to specific users as they log-in\n\nQuickBBS used to have this. a file named SL##### (where ###### was your security level) would be displayed during login.\n\nWould this be sufficient?\n\nWhat if we added\nSL#\nDSL#\nAR#\nDAR#\n\nWould that be sufficient?\n\n\n---\n\n** [feature-requests:#8] SysOp Message to specific users as they log-in**\n\n**Status:** open\n**Group:** Next_Release_(example)\n**Labels:** Feature\n**Created:** Mon Jun 23, 2014 07:52 PM UTC by Jimmy Mac\n**Last Updated:** Tue Aug 12, 2014 01:18 AM UTC\n**Owner:** nobody\n\nIt would be nice to have the ability to have a bulletin or message that selected users are forced to read at login with option to clear after read once or display every time, or only a select number of times.\nNot necessarily something that all users would see.\n\n\n\n\n---\n\nSent from sourceforge.net because you indicated interest in <https://sourceforge.net/p/wwiv/feature-requests/8/>\n\nTo unsubscribe from further messages, please visit <https://sourceforge.net/auth/subscriptions/>\n",
+        "attachments": [
+          {
+            "url": "http://sourceforge.net/p/wwiv/feature-requests/_discuss/thread/e88cdb91/0152/a5f0/attachment/alternate",
+            "bytes": 2200
+          }
+        ],
+        "author": "bsbbsoutlaw",
+        "timestamp": "2014-08-16 00:44:57.436000",
+        "last_edited": null,
+        "slug": "0152/a5f0",
+        "subject": "#8 SysOp Message to specific users as they log-in"
+      },
+      {
+        "text": "- **status**: open --> closed\n- **assigned_to**: Rushfan\n",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-08-16 16:53:50.919000",
+        "last_edited": null,
+        "slug": "b64b",
+        "subject": "#8 SysOp Message to specific users as they log-in"
+      },
+      {
+        "text": "Implemented in r816",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-08-16 16:53:51.106000",
+        "last_edited": null,
+        "slug": "f34a",
+        "subject": "#8 SysOp Message to specific users as they log-in"
+      },
+      {
+        "text": "Rush! THANK YOU! \n\nUsing the SLXXX, it is working PERFECTLY!!\n\nWill tinker with the other files soon. Assume standard extensions? MSG for plain text and ANS for Ansii? \n\n\nJ..\n\n\n-----Original Message-----\nFrom: Rushfan [mailto:rushfan@users.sf.net] \nSent: Saturday, August 16, 2014 9:54 AM\nTo: [wwiv:feature-requests] \nSubject: [wwiv:feature-requests] #8 SysOp Message to specific users as they log-in\n\n- **status**: open --> closed\n- **assigned_to**: Rushfan\n- **Comment**:\n\nImplemented in r816\n\n\n\n---\n\n** [feature-requests:#8] SysOp Message to specific users as they log-in**\n\n**Status:** closed\n**Group:** Next_Release_(example)\n**Labels:** Feature\n**Created:** Mon Jun 23, 2014 07:52 PM UTC by Jimmy Mac **Last Updated:** Sat Aug 16, 2014 12:28 AM UTC\n**Owner:** Rushfan\n\nIt would be nice to have the ability to have a bulletin or message that selected users are forced to read at login with option to clear after read once or display every time, or only a select number of times.\nNot necessarily something that all users would see.\n\n\n\n\n---\n\nSent from sourceforge.net because you indicated interest in <https://sourceforge.net/p/wwiv/feature-requests/8/>\n\nTo unsubscribe from further messages, please visit <https://sourceforge.net/auth/subscriptions/>",
+        "attachments": [],
+        "author": "bsbbsoutlaw",
+        "timestamp": "2014-08-18 05:21:48.119000",
+        "last_edited": null,
+        "slug": "b64b/f933",
+        "subject": "#8 SysOp Message to specific users as they log-in"
+      },
+      {
+        "text": "Yes. MSG/ANS/B&W all work as expected (just like with every file).\n\nGlad it works as expected! :)\n\nRushfan\n\n\nOn Sun, Aug 17, 2014 at 7:21 PM, Jimmy Mac <bsbbsoutlaw@users.sf.net> wrote:\n\n> Rush! THANK YOU!\n>\n> Using the SLXXX, it is working PERFECTLY!!\n>\n> Will tinker with the other files soon. Assume standard extensions? MSG for\n> plain text and ANS for Ansii?\n>\n>\n> J..\n>\n>\n> -----Original Message-----\n> From: Rushfan [mailto:rushfan@users.sf.net]\n> Sent: Saturday, August 16, 2014 9:54 AM\n> To: [wwiv:feature-requests]\n> Subject: [wwiv:feature-requests] #8 SysOp Message to specific users as\n> they log-in\n>\n> - **status**: open --> closed\n> - **assigned_to**: Rushfan\n> - **Comment**:\n>\n> Implemented in r816\n>\n>\n>\n> ---\n>\n> ** [feature-requests:#8] SysOp Message to specific users as they log-in**\n>\n> **Status:** closed\n> **Group:** Next_Release_(example)\n> **Labels:** Feature\n> **Created:** Mon Jun 23, 2014 07:52 PM UTC by Jimmy Mac **Last Updated:**\n> Sat Aug 16, 2014 12:28 AM UTC\n> **Owner:** Rushfan\n>\n> It would be nice to have the ability to have a bulletin or message that\n> selected users are forced to read at login with option to clear after read\n> once or display every time, or only a select number of times.\n> Not necessarily something that all users would see.\n>\n>\n>\n>\n> ---\n>\n> Sent from sourceforge.net because you indicated interest in <\n> https://sourceforge.net/p/wwiv/feature-requests/8/>\n>\n> To unsubscribe from further messages, please visit <\n> https://sourceforge.net/auth/subscriptions/>\n>\n>\n> ---\n>\n> ** [feature-requests:#8] SysOp Message to specific users as they log-in**\n>\n> **Status:** closed\n> **Group:** Next_Release_(example)\n> **Labels:** Feature\n> **Created:** Mon Jun 23, 2014 07:52 PM UTC by Jimmy Mac\n> **Last Updated:** Sat Aug 16, 2014 04:53 PM UTC\n> **Owner:** Rushfan\n>\n> It would be nice to have the ability to have a bulletin or message that\n> selected users are forced to read at login with option to clear after read\n> once or display every time, or only a select number of times.\n> Not necessarily something that all users would see.\n>\n>\n>\n>\n> ---\n>\n> Sent from sourceforge.net because you indicated interest in <\n> https://sourceforge.net/p/wwiv/feature-requests/8/>\n>\n> To unsubscribe from further messages, please visit <\n> https://sourceforge.net/auth/subscriptions/>\n>\n",
+        "attachments": [
+          {
+            "url": "http://sourceforge.net/p/wwiv/feature-requests/_discuss/thread/e88cdb91/b64b/f933/e5d2/attachment/alternate",
+            "bytes": 3365
+          }
+        ],
+        "author": "rushfan",
+        "timestamp": "2014-08-18 05:54:54.491000",
+        "last_edited": null,
+        "slug": "b64b/f933/e5d2",
+        "subject": "#8 SysOp Message to specific users as they log-in"
+      }
+    ],
+    "discussion_id": "505db898bfc09e520a72290d",
+    "subject": ""
+  },
+  "mod_date": "2015-01-11 16:24:13.343000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "53a8857e85540d3b2db3c8de",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/wwiv/feature-requests/_discuss/thread/e88cdb91/",
+  "ticket_num": 8,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": "5.0"
+  },
+  "created_date": "2014-06-23 19:52:30.041000"
+},{
+  "status": "open",
+  "reported_by_id": "4d440f971be1ce099800085a",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "xenos",
+  "assigned_to": "atani",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "505db88dbfc09e520a722896",
+  "private": false,
+  "summary": "need network stack on linux/other platforms",
+  "description": "I tried compiling WINS on Linux but... oh, yeah, it wasn't written to be cross-platform yet.",
+  "discussion_thread": {
+    "_id": "c2b62b9d",
+    "posts": [
+      {
+        "text": "Very likely it won't ever be cross platform.  NetX is already cross platform and a build will be available when it is stable on all platforms.",
+        "attachments": [],
+        "author": "atani",
+        "timestamp": "2014-06-24 05:00:21.086000",
+        "last_edited": null,
+        "slug": "fea8",
+        "subject": "#9 need network stack on linux/other platforms"
+      },
+      {
+        "text": "what's the outlook on getting a beta for NetX?",
+        "attachments": [],
+        "author": "xenos",
+        "timestamp": "2014-06-24 13:46:14.517000",
+        "last_edited": null,
+        "slug": "fea8/c882",
+        "subject": "#9 need network stack on linux/other platforms"
+      },
+      {
+        "text": "- **summary**: WINS won't compile on *n*x. :) :) --> need network stack on linux/other platforms\n",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-06-24 15:11:24.666000",
+        "last_edited": null,
+        "slug": "0eef",
+        "subject": "#9 need network stack on linux/other platforms"
+      },
+      {
+        "text": "Ticket moved from /p/wwiv/bugs/90/",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-06-24 15:11:32.352000",
+        "last_edited": null,
+        "slug": "b71d",
+        "subject": "#9 need network stack on linux/other platforms"
+      },
+      {
+        "text": "- **assigned_to**: Atani\n- **Group**: 5.0.0 --> Next_Release_(example)\n",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-06-25 05:09:43.560000",
+        "last_edited": null,
+        "slug": "e05a",
+        "subject": "#9 need network stack on linux/other platforms"
+      },
+      {
+        "text": "",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-08-16 00:26:53.388000",
+        "last_edited": null,
+        "slug": "f60a",
+        "subject": "#9 need network stack on linux/other platforms"
+      }
+    ],
+    "discussion_id": "505db898bfc09e520a72290d",
+    "subject": ""
+  },
+  "mod_date": "2015-01-11 16:24:13.338000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "53a5d23c04161f31f1dfa6d1",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/wwiv/feature-requests/_discuss/thread/c2b62b9d/",
+  "ticket_num": 9,
+  "custom_fields": {
+    "_priority": "1",
+    "_milestone": "5.0"
+  },
+  "created_date": "2014-06-21 18:43:08.885000"
+},{
+  "status": "open",
+  "reported_by_id": "4ce2c6bc0594ca49fb000073",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "rushfan",
+  "assigned_to": null,
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": null,
+  "private": false,
+  "summary": "show build number in wwiv5telneterver ",
+  "description": "show build number in wwiv5telneterver (logged on behalf of matt)",
+  "discussion_thread": {
+    "_id": "493d437e",
+    "posts": [],
+    "discussion_id": "505db898bfc09e520a72290d",
+    "subject": ""
+  },
+  "mod_date": "2015-01-11 16:24:13.346000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "53f1905da02bb12e82301d55",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/wwiv/feature-requests/_discuss/thread/493d437e/",
+  "ticket_num": 10,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": "5.0"
+  },
+  "created_date": "2014-08-18 05:34:21.364000"
+},{
+  "status": "open",
+  "reported_by_id": "505db898bfc09e520a72291b",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "mmunson79",
+  "assigned_to": null,
+  "labels": [
+    "file base",
+    "uploadall"
+  ],
+  "discussion_disabled": false,
+  "assigned_to_id": null,
+  "private": false,
+  "summary": "Uploadall logic issue",
+  "description": "I am using the recent build in win32.\r\nI am uploading files to my file base, but should the file logic be //UPLOADALL, check file for description then ask to add a description if no description can be imported in?\r\n",
+  "discussion_thread": {
+    "_id": "223d9703",
+    "posts": [
+      {
+        "text": "Ticket moved from /p/wwiv/bugs/130/",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-08-21 20:49:05.395000",
+        "last_edited": null,
+        "slug": "f6ca",
+        "subject": "#11 Uploadall logic issue"
+      }
+    ],
+    "discussion_id": "505db898bfc09e520a72290d",
+    "subject": ""
+  },
+  "mod_date": "2014-08-21 20:49:05.360000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "53f28b2ec4d104349f3c463d",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/wwiv/feature-requests/_discuss/thread/223d9703/",
+  "ticket_num": 11,
+  "custom_fields": {
+    "_priority": "2",
+    "_milestone": "5.0.0"
+  },
+  "created_date": "2014-08-18 23:24:30.945000"
+},{
+  "status": "open",
+  "reported_by_id": "4d440f971be1ce099800085a",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "xenos",
+  "assigned_to": null,
+  "labels": [
+    "init"
+  ],
+  "discussion_disabled": false,
+  "assigned_to_id": null,
+  "private": false,
+  "summary": "init user editor does not have option to delete/restore a user",
+  "description": "<s>user editor in init does not show deleted/inactive status of user.</s> also, no option to D)elete or R)estore a user record.",
+  "discussion_thread": {
+    "_id": "434e8853",
+    "posts": [
+      {
+        "text": "The deleted status is shown by a red \"[[ DELETED USER ]]\" in the upper right hand corner\r\n\r\nExample:\r\n<pre>\r\nWWIV v5.00 (Development) Initialization/Configuration Program.\r\nCopyright (c) 1998-2014, WWIV Software Services\r\n                                                  [[ DELETED USER ]]\r\nName/Handle      : TEST USER 3 #215\r\n\r\n</pre>",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-07-02 13:39:07.323000",
+        "last_edited": "2014-07-02 13:40:57.244000",
+        "slug": "1a2a",
+        "subject": "#12 init user editor does not have option to delete/restore a user"
+      },
+      {
+        "text": "my bad, i was using an old init build. init shows deleted status.\r\n\r\nit doesn't have the option to delete/restore users though.",
+        "attachments": [],
+        "author": "xenos",
+        "timestamp": "2014-07-04 01:13:46.347000",
+        "last_edited": null,
+        "slug": "287d",
+        "subject": "#12 init user editor does not have option to delete/restore a user"
+      },
+      {
+        "text": "- **summary**: init user editor does not show deleted/inactive status --> init user editor does not have option to delete/restore a user\n- Description has changed:\n\nDiff:\n\n~~~~\n\n--- old\n+++ new\n@@ -1 +1 @@\n-user editor in init does not show deleted/inactive status of user. also, no option to D)elete or R)estore a user record.\n+<s>user editor in init does not show deleted/inactive status of user.</s> also, no option to D)elete or R)estore a user record.\n\n~~~~\n\n",
+        "attachments": [],
+        "author": "xenos",
+        "timestamp": "2014-07-04 01:14:58.083000",
+        "last_edited": null,
+        "slug": "3fa5",
+        "subject": "#12 init user editor does not have option to delete/restore a user"
+      },
+      {
+        "text": "ahh yes, that'll be harder since there is more to do than just flip a bit.  Thanks",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-07-04 13:48:38.087000",
+        "last_edited": null,
+        "slug": "d7f6",
+        "subject": "#12 init user editor does not have option to delete/restore a user"
+      },
+      {
+        "text": "",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-08-07 02:11:03.772000",
+        "last_edited": null,
+        "slug": "7c7b",
+        "subject": "#12 init user editor does not have option to delete/restore a user"
+      },
+      {
+        "text": "depends on the sdk module",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-08-07 02:11:04.158000",
+        "last_edited": null,
+        "slug": "3f6f",
+        "subject": "#12 init user editor does not have option to delete/restore a user"
+      },
+      {
+        "text": "Ticket moved from /p/wwiv/bugs/95/",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2014-08-21 20:49:22.347000",
+        "last_edited": null,
+        "slug": "3741",
+        "subject": "#12 init user editor does not have option to delete/restore a user"
+      }
+    ],
+    "discussion_id": "505db898bfc09e520a72290d",
+    "subject": ""
+  },
+  "mod_date": "2014-08-21 20:49:22.295000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "53b3eab9c43143606924f112",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/wwiv/feature-requests/_discuss/thread/434e8853/",
+  "ticket_num": 12,
+  "custom_fields": {
+    "_priority": "1",
+    "_milestone": "5.0.0"
+  },
+  "created_date": "2014-07-02 11:19:21.734000"
+},{
+  "status": "wont-fix",
+  "reported_by_id": "52c4f186b9363c295ef0719d",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "bsbbsoutlaw",
+  "assigned_to": "rushfan",
+  "labels": [
+    "Passwords",
+    "Case sensitive"
+  ],
+  "discussion_disabled": false,
+  "assigned_to_id": "4ce2c6bc0594ca49fb000073",
+  "private": false,
+  "summary": "Feature Request: Allow both upper and lower case characters in passwords",
+  "description": "This may be opening a can of worms for existing systems but it sure would be nice to be able to use upper and lower case in passwords. Too much trouble?",
+  "discussion_thread": {
+    "_id": "f7a0ba28",
+    "posts": [
+      {
+        "text": "- **status**: open --> wont-fix\n- **assigned_to**: Rushfan\n",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2015-01-22 06:23:02.967000",
+        "last_edited": null,
+        "slug": "4e56",
+        "subject": "#13 Feature Request: Allow both upper and lower case characters in passwords"
+      },
+      {
+        "text": "I think this would be too much trouble. ",
+        "attachments": [],
+        "author": "rushfan",
+        "timestamp": "2015-01-22 06:23:03.267000",
+        "last_edited": null,
+        "slug": "a5ec",
+        "subject": "#13 Feature Request: Allow both upper and lower case characters in passwords"
+      }
+    ],
+    "discussion_id": "505db898bfc09e520a72290d",
+    "subject": ""
+  },
+  "mod_date": "2015-01-22 06:23:03.301000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "53f68eeea02bb1124734a7f6",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/wwiv/feature-requests/_discuss/thread/f7a0ba28/",
+  "ticket_num": 13,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": "5.0"
+  },
+  "created_date": "2014-08-22 00:29:34.212000"
+},{
+  "status": "open",
+  "reported_by_id": "52c4f186b9363c295ef0719d",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "bsbbsoutlaw",
+  "assigned_to": null,
+  "labels": [
+    "Modem"
+  ],
+  "discussion_disabled": false,
+  "assigned_to_id": null,
+  "private": false,
+  "summary": "Add feature to Telnet Server to integrate modem features.",
+  "description": "I think it would be pretty awesome to be able to hook up a modem again. I know, awfully retro but I would be willing to do so and have the spare line.",
+  "discussion_thread": {
+    "_id": "5594cf0b",
+    "posts": [],
+    "discussion_id": "505db898bfc09e520a72290d",
+    "subject": ""
+  },
+  "mod_date": "2015-04-03 19:10:13.329000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "551ee595485acd3cfe2f1a6d",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/wwiv/feature-requests/_discuss/thread/5594cf0b/",
+  "ticket_num": 14,
+  "custom_fields": {
+    "_priority": "4",
+    "_milestone": "5.0"
+  },
+  "created_date": "2015-04-03 19:10:13.251000"
+}],
+"tracker_config":{
+  "_id": "505db898bfc09e520a72290b",
+  "options": {
+    "ordinal": 8,
+    "import_id": "tracker/681153",
+    "mount_point": "feature-requests",
+    "TicketMonitoringType": null,
+    "EnableVoting": false,
+    "TicketMonitoringEmail": "",
+    "mount_label": "Feature Requests"
+  }
+},
+"milestones":[
+  {
+    "due_date": "05/31/2015",
+    "complete": false,
+    "closed": 7,
+    "default": false,
+    "description": "Final 5.0",
+    "total": 12,
+    "name": "5.0"
+  },
+  {
+    "due_date": "",
+    "complete": false,
+    "closed": 0,
+    "default": false,
+    "description": "5.1 release",
+    "total": 0,
+    "name": "5.1"
+  }
+],
+"custom_fields":[
+  {
+    "milestones": [
+      {
+        "default": false,
+        "due_date": "05/31/2015",
+        "description": "Final 5.0",
+        "name": "5.0",
+        "complete": false
+      },
+      {
+        "default": false,
+        "due_date": "",
+        "description": "5.1 release",
+        "complete": false,
+        "name": "5.1"
+      }
+    ],
+    "type": "milestone",
+    "name": "_milestone",
+    "label": "Group"
+  },
+  {
+    "label": "Priority",
+    "type": "select",
+    "options": "1 2 3 4 5 6 7 8 9",
+    "name": "_priority"
+  }
+],
+"open_status_names":"open unread accepted pending",
+"closed_status_names":"closed wont-fix",
+"saved_bins":[
+  {
+    "sort": "mod_date_dt desc",
+    "_id": "505db898bfc09e520a722916",
+    "terms": "!status:wont-fix && !status:closed",
+    "summary": "Changes"
+  },
+  {
+    "sort": "",
+    "_id": "505db898bfc09e520a722915",
+    "terms": "status:wont-fix or status:closed",
+    "summary": "Closed Tickets"
+  },
+  {
+    "sort": "",
+    "_id": "505db898bfc09e520a722914",
+    "terms": "!status:wont-fix && !status:closed",
+    "summary": "Open Tickets"
+  }
+]}
