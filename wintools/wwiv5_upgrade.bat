@@ -39,6 +39,8 @@ c:
 cd %userprofile%\downloads\
 c:\tools\wget http://build.wwiv.us/job/wwiv/%1/label=windows/artifact/wwiv-build-win-%1.zip
 7z e -oc:\wwiv -y wwiv-build-win-%1.zip *.exe
+7z e -oc:\wwiv -y wwiv-build-win-%1.zip *.dll
+7z e -o%windir%\system32 -y wwiv-build-win-%1.zip *.exe
 GOTO DONE
 
 :USAGE
