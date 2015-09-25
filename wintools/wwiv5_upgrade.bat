@@ -1,3 +1,29 @@
+@Echo Off
+
+:: BatchGotAdmin
+:-------------------------------------
+REM  --> Check for permissions
+>nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
+
+REM --> If error flag set, we do not have admin.
+if '%errorlevel%' NEQ '0' (
+    echo Requesting administrative privileges...
+    goto UACPrompt
+) else ( goto gotAdmin )
+
+:UACPrompt
+    echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"
+    echo UAC.ShellExecute "%~s0", "%1", "", "runas", 1 >> "%temp%\getadmin.vbs"
+
+    "%temp%\getadmin.vbs"
+    exit /B
+
+:gotAdmin
+    if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )
+    pushd "%CD%"
+    CD /D "%~dp0"
+:--------------------------------------
+
 @Echo OFF
 
 REM This requires you have WGET You need the Binaries
@@ -39,6 +65,8 @@ c:
 cd %userprofile%\downloads\
 c:\tools\wget http://build.wwiv.us/job/wwiv/%1/label=windows/artifact/wwiv-build-win-%1.zip
 7z e -oc:\wwiv -y wwiv-build-win-%1.zip *.exe
+7z e -oc:\wwiv -y wwiv-build-win-%1.zip *.dll
+7z e -o%SystemRoot%\system32 -y wwiv-build-win-%1.zip *.dll
 GOTO DONE
 
 :USAGE
@@ -59,3 +87,4 @@ ECHO.
 GOTO DONE
 
 :DONE
+pause
