@@ -37,7 +37,7 @@ cd \
 REM GET the New Build and upgrade the install
 c:
 cd %userprofile%\downloads\
-c:\tools\wget http://build.wwiv.us/job/wwiv/%1/label=windows/artifact/wwiv-build-win-%1.zip
+c:\tools\wget http://build.wwivbbs.org/job/WWIV/label=windows/%1/artifact/wwiv-build-win-%1.zip
 7z e -oc:\wwiv -y wwiv-build-win-%1.zip *.exe
 GOTO DONE
 
@@ -53,8 +53,8 @@ ECHO.
 ECHO     Backup will be placed here: 
 ECHO         %userprofile%\documents\timestamp_wwiv.zip
 ECHO     New Build is expects to be found here: 
-ECHO         http://build.wwiv.us/job/wwiv/####/label
-ECHO              =windows/artifact/wwiv-build-win-####.zip
+ECHO         http://build.wwivbbs.org/job/WWIV/label=windows
+ECHO              /####/artifact/wwiv-build-win-####.zip
 ECHO.
 GOTO DONE
 
