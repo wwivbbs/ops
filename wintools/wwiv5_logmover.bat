@@ -12,7 +12,7 @@ REM     * \wwiv\nets\wwivnet\news.log
 REM For more information on WWIV Log files: 
 REM https://github.com/wwivbbs/wwiv/wiki/logfiles
 REM 
-REM Files are Moved and renamed YYYYMMDDHHMMSS_FILENAME.LOG, 
+REM Files are Moved and renamed YYYYMMDD-HHMMSS_FILENAME.LOG, 
 REM except ##########NEWS.LOG are just moved as-is.
 REM 
 REM New Files will be automatically generated when the 
@@ -24,7 +24,7 @@ set month=%date:~4,2%
 set day=%date:~7,2%
 set hour=%time:~0,2%
 REM Replace leading space with zero
-if ô%hour:~0,1%ö ==ö ö set hour=0%hour:~1,1%
+if Ã´%hour:~0,1%Ã¶ ==Ã¶ Ã¶ set hour=0%hour:~1,1%
 set minute=%time:~3,2%
 set seconds=%time:~6,2%
 set timestamp=%year%%month%%day%-%hour%%minute%%seconds%
