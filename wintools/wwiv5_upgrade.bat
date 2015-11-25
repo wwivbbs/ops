@@ -102,6 +102,7 @@ REM EXTRACT FILES FOR UPDATE
 "%ProgramFiles%\7-Zip\7z.exe" e -o%SystemRoot%\system32 -y wwiv-build-win-%build%.zip *.dll
 ECHO.
 ECHO WWIV UDATE COMPLETE!
+PAUSE
 GOTO RUNWWIV
 
 :WINRAR
@@ -119,9 +120,11 @@ REM EXTRACT FILES FOR UPDATE
 "%ProgramFiles%\WinRAR\WinRAR.exe" e -y wwiv-build-win-%build%.zip *.dll %SystemRoot%\system32
 ECHO.
 ECHO WWIV UDATE COMPLETE!
+PAUSE
 GOTO RUNWWIV
 
 :USAGE
+CLS
 ECHO How to Use WWIV 5.0 build to build wwiv5_upgrade.bat
 ECHO.
 ECHO     SYNTAX: wwiv5_upgrade.bat
@@ -138,11 +141,24 @@ ECHO.
 GOTO DONE
 
 :RUNWWIV
+CLS
 ECHO.
-set /p run_wwiv="Launch WWIV Now? Press 1 for YES | 2 for NO: "
+ECHO PLEASE CHOOSE AN OPTION
 ECHO.
-if %run_wwiv% EQU 1 GOTO LAUNCHWWIV in NOT GOTO RUNWWIV
-if %run_wwiv% EQU 2 GOTO CHANGES in NOT GOTO RUNWWIV
+ECHO 1) Launch WWIV with WWIVNet
+ECHO 2) Launch WWIV Only
+ECHO 3) Launch Nothing and Exit
+ECHO.
+set /p run_wwiv="Select Option: "
+ECHO.
+if %run_wwiv% EQU 1 GOTO LAUNCHWWIVNET if NOT GOTO RUNWWIV
+if %run_wwiv% EQU 2 GOTO LAUNCHWWIV if NOT GOTO RUNWWIV
+if %run_wwiv% EQU 3 GOTO CHANGES if NOT GOTO RUNWWIV
+
+:LAUNCHWWIVNET
+START C:\wwiv\WWIV5TelnetServer.exe
+START C:\wwiv\binkp.cmd
+GOTO CHANGES
 
 :LAUNCHWWIV
 START C:\wwiv\WWIV5TelnetServer.exe
