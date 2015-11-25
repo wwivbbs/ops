@@ -158,6 +158,7 @@ if %run_wwiv% EQU 3 GOTO CHANGES if NOT GOTO RUNWWIV
 :LAUNCHWWIVNET
 START C:\wwiv\WWIV5TelnetServer.exe
 START C:\wwiv\binkp.cmd
+START C:\wwiv\wwiv.exe
 GOTO CHANGES
 
 :LAUNCHWWIV
