@@ -127,7 +127,7 @@ REM FETCH NEW WWIV UPDATE
 CD %USERPROFILE%\downloads\
 
 IF %autoget% EQU [1] (
-REM FETCH LATEST BUILD AND PAtCH WWIV
+REM FETCH LATEST BUILD AND PATCH WWIV
 "%WGETPATH%"\GnuWin32\bin\wget.exe -r -np -nd --accept zip,ZIP --reject=htm,html,php,asp,txt,md --timestamping -e robots=off http://build.wwivbbs.org/job/wwiv/lastSuccessfulBuild/label=windows/artifact/
 DEL /Q archive.zip
 DIR /B wwiv-build-win*.zip > build_file.txt
