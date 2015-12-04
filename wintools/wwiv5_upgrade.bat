@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 @Echo OFF
-=======
-@ECHO OFF
->>>>>>> 1ceffbd4371410928255d8705da8912a1fee9a86
 
 :SWITCHES
 IF [%1]==[] GOTO START
